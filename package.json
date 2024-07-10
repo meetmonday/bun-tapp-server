@@ -1,0 +1,24 @@
+{
+  "name": "node-tapp-server",
+  "module": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "bun run ./src/index.js",
+    "dev": "bun --watch run ./src/index.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "drizzle-kit": "^0.23.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "add": "^2.0.6",
+    "bun": "^1.1.18",
+    "cheerio": "^1.0.0-rc.12",
+    "drizzle-orm": "^0.32.0",
+    "fast-xml-parser": "^4.4.0",
+    "hono": "^4.4.12"
+  }
+}
